@@ -1,0 +1,55 @@
+       body{
+          background-image: url("https://f4llen.neocities.org/video/tenor.gif");
+          background-repeat: repeat;
+          background-attachment: fixed;
+          color: white;
+          font-size: 26px;
+        }
+        
+        .alinhar{
+          margin-top: 20px; 
+          margin-left: 50px;
+          text-align: left;
+        }
+        
+        .Foto_1{
+          width: 450px;
+          height: 650px;
+          object-fit: cover;
+        }
+        
+        .Foto_2{
+          width: 450px;
+          height: 650px;
+          
+          position: fixed
+          object-fit: cover;
+        }
+        
+        .Foto{
+          Margin: 50px;
+          border-radius: 10px;
+          
+        }
+        
+        .Linha_1{
+          display: flex; 
+          justify-content: center; 
+          align-items: center
+        }
+        
+        #Blur{
+          width: 90%;
+          
+          max-width: 1100px;
+          
+          margin: 0 auto;
+          padding: 10px;   
+          
+          background: rgba(0, 0, 0, 0.2);
+          backdrop-filter: blur(7px);
+          -webkit-backdrop-filter: blur(7px);  
+          
+          border-radius: 15px;
+          box-sizing: border-box;
+        }
