@@ -1,253 +1,159 @@
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-        
-        *{
-          border: none;
-          font-family: Ubuntu Mono; 
-          color: white;
-        }
-        
-        body {
-          margin: 0;
-          min-height: 100vh;
-          min-width: 100vw;
-         
-          background-image: url("https://f4llen.neocities.org/video/tenor.gif");
-          background-repeat: repeat;
-        }
-        
-        .ubuntu-mono-regular {
-          font-family: "Ubuntu Mono", monospace;
-          font-weight: 400;
-          font-style: normal;
-        }
-        
-        /* https://i.pinimg.com/1200x/5f/1b/a3/5f1ba3137258942f76cab5b7b4317731.jpg */
-        
-        main {
-          width: 100%;
-          max-width: 1100px;
-          min-height: 95vh;
-          
-          margin: 0 auto;
-          padding: 10px;
-         
-          background: rgba(0, 0, 0, 0.2);
-          backdrop-filter: blur(7px);
-          -webkit-backdrop-filter: blur(7px);
-         
-          border-radius: 15px;
-          box-sizing: border-box;
-        }
-        
-        
-        
-        /* Tamanho da Fonte */
-        
-        .titulos{
-          font-size: 20px;
-          
-        }
-        
-        .paragrafos{
-          font-size: 15px;
-          text-align: justify;
-        }
-        
-        /* menu */
-        
-        .painel{
-          background: #42c920;
-        
-          
-          height: 100%;
-          width: 100%;
-          
-          border-radius: 5px;
-          margin: auto;
-          
-          text-align: justify;
-        
-        }
-        
-        .menu{
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-          
-          align-items: justify;
-          background-attachment: fixed;
-        
-          gap: 15px;
-          height: 40px;
-        }
-        
-        a{
-          text-decoration: none;
-          color: black;
-          font-size: 25px;
-          margin: 10px;
-        }
-        
-        
-        /* fundo das colunas */
-        
-        .fundo{
-          width: 100%;
-          margin: 0 auto;
-          padding: 15px;
-        }
-        
-         
-        /* codigo base das colunas que estão em grupo*/
-        
-        .container{
-          display: flex;
-          gap: 5px; 
-          
-          justify-content: center;
-          align-items: flex-start;
-          flex-wrap: wrap;
-        }
-        
-        .coluna{drrrrrfrrr
-          flex: 1 1 280px;
-          max-width: 350px;
-          min-width: 220px;
-        
-          margin: 5px;
-          padding: 5px;
-        
-          border-radius: 15px;
-        
-          position: relative;
-          
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          
-        }
-        
-        .Tamanho{
-          width: 900px;
-        }
-        
-        /* 
-           codigo das colunas separadas por direção 
-              DIREITA | CENTRO | ESQUERDA
-        */ 
-        
-        .card{
-          
-          width: 100%;
-          height: auto;
-        
-          margin: 5px;
-          padding: 5px;
-        
-          border: 4px solid #42c920;
-          border-radius: 10px;
-        
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-        
-          overflow: hidden;
-          overflow-wrap: break-word;
-          word-wrap: break-word;
-        
-          box-sizing: border-box; 
-        }
-        
-        img{
-          width: 100%;
-          height: auto;
-          display: block;
-        }
-        
-        .direita, .centro, .esquerda {
-          flex: 1;
-          min-width: 200px;
-          max-width: 350px; 
-        }
-        
-        .grande,.pequeno,.vertical { width: 100%;}
-        
-        
-        
-        /* Card grande que é dificíl de fazer e o Código padrão dos CARDs | DIREITA */
-        
-        .grupo{
-          display: flex;
-          gap: 10px;
-          flex-wrap: wrap;
-        }
-        
-        .vertical {
-          flex: 1;
-          height: auto;
-          width: 120px;
-        }
-        
-        .mini-grupo {
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-          flex: 1;
-        }
-        
-        /* Código dos Cards*/
-        
-        .grande {
-          max-width: 300px;
-          font-size: 14px;
-        }
-        
-        .pequeno { max-width: 160px; }
-        .vertical { max-width: 120px; }
-        
-        
-        /* Apenas  a coluna CENTRO */
-        
-        .centro {
-          flex: 2 1 400px;
-          max-width: 600px;
-        }
-        
-        .titulo{
-          font-family: monospace;
-          font-size: 25px;
-          margin: 0px;
-          width: 100%;
-        }
-        
-        .titulo_2{
-          font-family: monospace;
-          font-size: 20px;
-          margin: 0px;
-          width: 100%;
-        }
-        
-        .texto, .titulo_2, .titulo{
-          padding: 0px 10px 0px 10px;
-        }
-        
-        .texto{
-          margin: 0px;
-          text-align: left; 
-        }
-        
-        .Hr_1{
-          all: unset;
-          display: block;
-          width: 100%;
-          height: 2px;
-          background-color: #42c920;
-          margin: 10px 0;
-        }
-        
-        .Logo{
-            height: 300px;
-            width: 300px;
-            object-fit: contain;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  border: none;
+  font-family: Ubuntu Mono;
+  color: white;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("/video/tenor.gif");
+  background-repeat: repeat;
+}
+
+main {
+  width: 100%;
+  max-width: 1100px;
+  min-height: 95vh;
+  margin: 0 auto;
+  padding: 6px;         
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.titulos  { font-size: 20px; }
+.paragrafos { font-size: 15px; text-align: justify; }
+
+/* menu */
+
+.painel {
+  background: #42c920;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  margin: auto;
+  text-align: justify;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-attachment: fixed;
+  gap: 8px;           
+  height: 36px;           
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;        
+  margin: 5px;          
+}
+
+/* fundo das colunas */
+
+.fundo {
+  width: 100%;
+  margin: 0 auto;
+  padding: 8px;           
+}
+
+/* colunas em grupo */
+
+.container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.coluna {
+  flex: 1 1 280px;
+  max-width: 350px;
+  min-width: 220px;
+  margin: 3px;            
+  padding: 3px;           
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Tamanho { width: 900px; }
+
+/* direita | centro | esquerda */
+
+.card {
+  width: 100%;
+  height: auto;
+
+  margin: 3px;            
+  padding: 3px;           
+
+  border: 4px solid #42c920;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+  overflow-wrap: break-word;
+  
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+img { width: 100%; height: auto; display: block; }
+
+.direita, .centro, .esquerda {
+  flex: 1;
+  min-width: 200px;
+  max-width: 350px;
+}
+
+.grande, .pequeno, .vertical { width: 100%; }
+
+/* card grande | direita */
+
+.grupo { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.vertical { flex: 1; height: auto; width: 120px; }
+
+.mini-grupo { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+
+.grande   { max-width: 300px; font-size: 14px; }
+.pequeno  { max-width: 160px; }
+.vertical { max-width: 120px; }
+
+/* coluna centro */
+
+.centro { flex: 2 1 400px; max-width: 600px; }
+
+.titulo   { font-family: monospace; font-size: 25px; margin: 0; width: 100%; }
+.titulo_2 { font-family: monospace; font-size: 20px; margin: 0; width: 100%; }
+
+.texto, .titulo_2, .titulo { padding: 0 8px; }   
+.texto { margin: 0; text-align: left; }
+
+.Hr_1 {
+  all: unset;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #42c920;
+  margin: 6px 0;             
+}
+
+.Logo { height: 300px; width: 300px; object-fit: contain; }

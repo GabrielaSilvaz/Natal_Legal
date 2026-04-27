@@ -1,0 +1,73 @@
+@import url('https://fonts.cdnfonts.com/css/warriot-tech');
+
+:root {
+  --font: 'ubuntu', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("/video/tenor.gif");
+  background-repeat: repeat;
+}
+
+#vinyl-gallery * { all: unset; }
+
+#vinyl-gallery {
+  all: initial !important;
+  width: 100% !important;
+  height: 210px !important;
+  margin: 16px 0 16px -6px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  position: relative !important;
+}
+
+#vinyl-gallery .vinyl {
+  all: unset !important;
+  perspective: 500px !important;
+  width: 18px !important;
+  transition: width 0.5s !important;
+}
+
+#vinyl-gallery .vinyl:hover {
+  width: 140px !important;
+}
+
+#vinyl-gallery img {
+  all: unset !important;
+  transition: transform 0.5s, width 0.5s, height 0.5s, margin-top 0.5s !important;
+  width: 170px !important;
+  height: 170px !important;
+  transform: rotateX(0deg) rotateY(25deg) !important;
+  transform-style: preserve-3d !important;
+  border-radius: 4px !important;
+  border: 2px solid rgba(0, 0, 0, 0.1) !important;
+  object-fit: cover !important;
+}
+
+#vinyl-gallery .vinyl:hover img {
+  transform: rotateX(0deg) rotateY(10deg) !important;
+  width: 178px !important;
+  height: 178px !important;
+  margin-top: -2px !important;
+}
+
+#vinyl-gallery .title {
+  font-family: var(--font);
+  color: green;
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding-left: 6px;
+}
+
+#vinyl-gallery .vinyl:hover + .title {
+  visibility: visible;
+}
+
+
