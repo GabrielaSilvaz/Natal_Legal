@@ -22,12 +22,12 @@ object-fit: cover;
 width: 450px;
 height: 650px;
 
-position: fixed
+position: fixed;
 object-fit: cover;
 }
      
 .Foto{
-Margin: 50px;
+margin: 50px;
 border-radius: 10px;
  
 }
