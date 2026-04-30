@@ -65,24 +65,22 @@ body{
     background-repeat: repeat;
     background-attachment: fixed;
     color: white;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .alinhar{
-    margin-top: 20px;
-    margin-left: 50px;
+    margin: 15px 15px 15px 50px;;
     text-align: left;
+    font-size: 20px;
 }
 
-.Foto_1, .Foto_2 {
-  width: 300px;
-  height: 450px;
-  object-fit: cover;
-}
      
 .Foto{
-    margin: 50px;
+    margin: 50px 50px 0px 50px;
     border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
 }
 
 .Linha_1{
@@ -91,9 +89,10 @@ body{
     align-items: center;
 }
 
+
 #Blur{
     width: 90%;
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 10px;   
     background: rgba(0, 0, 0, 0.2);
