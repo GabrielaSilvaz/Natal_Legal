@@ -61,43 +61,47 @@ a {
 /*  Final do header*/
 
 body{
-    background-image: url("../video/Matrix.gif");
-    background-repeat: repeat;
-    background-attachment: fixed;
-    color: white;
-    font-size: 20px;
+  background-image: url("../video/Matrix.gif");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: white;
+  font-size: 20px;
 }
 
 .alinhar{
-    margin: 15px 15px 15px 50px;;
-    text-align: left;
-    font-size: 20px;
+  margin: 10px 5px 10px 50px;
+  text-align: left;
+  font-size: 20px;
+  width: 300px;
 }
 
+p {
+
+}
      
 .Foto{
-    margin: 50px 50px 0px 50px;
-    border-radius: 10px;
-    width: 300px;
-    height: 450px;
-    object-fit: cover;
+  margin: 40px 50px 0px 40px;
+  border-radius: 10px;
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
 }
 
 .Linha_1{
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
 
 
 #Blur{
-    width: 90%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 10px;   
-    background: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);  
-    border-radius: 15px;
-    box-sizing: border-box;
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;   
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);  
+  border-radius: 15px;
+  box-sizing: border-box;
 }
