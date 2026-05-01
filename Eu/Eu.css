@@ -1,7 +1,17 @@
-@import url('https://fonts.cdnfonts.com/css/warriot-tech');
+.ubuntu-mono-regular {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
 
-:root {
-  --font: 'ubuntu', sans-serif;
+* {
+  border: none;
+  font-family: Ubuntu Mono;
+  color: white;
+}
+
+:root{
+  --fonte: Ubuntu Mono;
 }
 
 body {
@@ -12,46 +22,154 @@ body {
   background-repeat: repeat;
 }
 
+#blur {
+  width: 90%;
+  max-width: 1100px;
+  min-height: 90vh;
+  margin: 0 auto;
+  padding: 6px;         
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 15px;
+}
+
+
+/* Fotos sobre postas ao conteudo do Site! 
+      E Foto e layot da Foto do Perfil*/
+
+.Foto-p{
+  border-radius: 100%;
+  background-color: #000000d7;
+
+  width: 320px;
+  height: 290px;
+
+  position: absolute;
+
+  top: 80px;      
+  right: 750px;    
+
+}
+
+#Icone-1{
+  position: absolute;
+
+  transform: rotate(15deg);
+
+  top: 200px;      
+  right: 810px;    
+
+  width: 350px;
+  height: 350px;
+}
+
+#Icone-2{
+  position: absolute;
+
+  transform: rotate(30deg);
+
+  top: 40px;      
+  right: 740px;    
+
+  width: 150px;
+  height: 150px;
+}
+
+
+/* Fonte */
+
+.titulos{ 
+  font-family: var(--fonte);
+  margin: 0; 
+  width: 100%;
+  font-size: 35px;
+  text-align: center; 
+}
+
+.titulo_2 { 
+  font-family: ubuntu Mono;
+  font-size: 20px; 
+  margin: 0; 
+  width: 100%;
+  text-align: center;
+}
+
+.texto, .titulo_2, .titulo { padding: 0 8px; }   
+.texto { margin: 0; font-size: 20px; text-align: justify; }
+
+
+/* menu */
+
+.painel {
+  background: #42c920;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  margin: auto;
+  text-align: justify;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-attachment: fixed;
+  gap: 8px;           
+  height: 36px;           
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;        
+  margin: 5px;          
+}
+
+
+/* CSS do Vinyl */
+
 #vinyl-gallery * { all: unset; }
 
 #vinyl-gallery {
-  all: initial !important;
-  width: 100% !important;
-  height: 210px !important;
-  margin: 16px 0 16px -6px !important;
-  display: flex !important;
-  flex-direction: row !important;
-  position: relative !important;
+  all: initial;
+  width: 100%;
+  height: 210px;
+  margin: 16px 0 16px -6px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
 #vinyl-gallery .vinyl {
-  all: unset !important;
-  perspective: 500px !important;
-  width: 18px !important;
-  transition: width 0.5s !important;
+  all: unset ;
+  perspective: 500px;
+  width: 18px;
+  transition: width 0.5s;
 }
 
 #vinyl-gallery .vinyl:hover {
-  width: 140px !important;
+  width: 140px;
 }
 
 #vinyl-gallery img {
-  all: unset !important;
-  transition: transform 0.5s, width 0.5s, height 0.5s, margin-top 0.5s !important;
-  width: 170px !important;
-  height: 170px !important;
-  transform: rotateX(0deg) rotateY(25deg) !important;
-  transform-style: preserve-3d !important;
-  border-radius: 4px !important;
-  border: 2px solid rgba(0, 0, 0, 0.1) !important;
-  object-fit: cover !important;
+  all: unset;
+  transition: transform 0.5s, width 0.5s, height 0.5s, margin-top 0.5s;
+  width: 170px;
+  height: 170px;
+  transform: rotateX(0deg) rotateY(25deg);
+  transform-style: preserve-3d;
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
 #vinyl-gallery .vinyl:hover img {
-  transform: rotateX(0deg) rotateY(10deg) !important;
-  width: 178px !important;
-  height: 178px !important;
-  margin-top: -2px !important;
+  transform: rotateX(0deg) rotateY(10deg) ;
+  width: 178px;
+  height: 178px;
+  margin-top: -2px;
 }
 
 #vinyl-gallery .title {
@@ -69,5 +187,4 @@ body {
 #vinyl-gallery .vinyl:hover + .title {
   visibility: visible;
 }
-
 
