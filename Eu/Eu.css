@@ -27,7 +27,7 @@ body {
 }
 
 
-/* Fotos sobre postas ao conteudo do Site! 
+/* Fotos sobre postas ao conteudo do Perfil! 
       E Foto e layot da Foto do Perfil*/
 
 .Foto-p{
@@ -66,6 +66,14 @@ body {
 
   width: 150px;
   height: 150px;
+}
+
+.perfil{
+  position: absolute;
+
+  top: 100px;      
+  right: 300px;
+
 }
 
 
@@ -165,13 +173,12 @@ a {
 }
 
 #vinyl-gallery .title {
-  font-family: var(--font);
-  color: green;
+  font-family: Ubuntu Mono;
+  color: rgb(255, 255, 255);
   display: block;
   visibility: hidden;
   position: absolute;
   bottom: 0;
-  text-align: center;
   width: 100%;
   padding-left: 6px;
 }
@@ -180,3 +187,6 @@ a {
   visibility: visible;
 }
 
+.L-vinyl{
+  margin-top: 450px;
+}
