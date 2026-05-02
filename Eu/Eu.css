@@ -6,10 +6,6 @@
   color: white;
 }
 
-:root{
-  --fonte: Ubuntu Mono;
-}
-
 body {
   margin: 0;
   min-height: 100vh;
@@ -76,7 +72,7 @@ body {
 /* Fonte */
 
 .titulos{ 
-  font-family: var(--fonte);
+  font-family: Ubuntu Mono;
   margin: 0; 
   width: 100%;
   font-size: 35px;
