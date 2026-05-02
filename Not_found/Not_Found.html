@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Não Foi | Not Found</title>
-    <link rel="icon" href="../img/intro.png">
+    <link rel="icon" href="/img/intro.png">
     <link href="not-found.css" rel="stylesheet" type="text/css" media="all">
   </head>
   
@@ -12,9 +12,9 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
    
-      body{
+      body {
         background-color: black;
-        color: white;
+        color: rgb(51, 255, 0);
         font-family: Ubuntu Mono;
       }
       
@@ -22,27 +22,31 @@
         text-align: center;
       }
     
-      .txt{
+      .txt {
         text-align: center;
-        color: white;
       }
 
-      img{
-        position: absolute;
 
-        top: 130px;
-        left: 1016px;
+      .img {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+      }
 
+      .Foto{
         height: 300px;
         width: 300px;
       }
 
       .Voltar{
-        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+      }
 
-        top: 430px;
-        left: 1016px;
-
+      a{
+        text-decoration: none;
+        color: rgb(51, 255, 0);
       }
       
   </style>
@@ -52,16 +56,17 @@
       <h1>Eita! parece que ainda não ta pronto, <br> Ou ta em manutenção.</h1>
     </section>
 
-    <img src="https://i.pinimg.com/1200x/ac/d0/3b/acd03bc7ccf3623df89409be520c02c2.jpg">
+    <div class="img">
+      <img class="Foto" src="https://i.pinimg.com/1200x/ac/d0/3b/acd03bc7ccf3623df89409be520c02c2.jpg">
+    </div>
 
-    <section class="txt">
+    <section class="txt Voltar">
       <p>Que tal você voltar mais tarde?</p>
     </section>
 
-    <br>
 
-    <div class="Voltar txt">
-      <a href="/Natal_Legal//central/Central.html">[ Voltar Para Central ]</a>
+    <div class="Voltar">
+      <a class="txt" href="/Natal_Legal//central/Central.html">[ Voltar Para Central ]</a>
     </div>
 
   </body>
