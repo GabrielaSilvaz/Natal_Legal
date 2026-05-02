@@ -24,6 +24,36 @@ body {
   height: 400px;
 }
 
+#LP{
+  position: absolute;
+
+  top: 30px;      
+  right: 20px;  
+  
+  width: 150px;
+  height: 200px;
+}
+
+#alien{
+  position: absolute;
+
+  top: 250px;      
+  right: 20px;  
+  
+  width: 350px;
+  height: 400px;
+}
+
+#estrela{
+  position: absolute;
+
+  top: 70px;      
+  right: 20px;  
+  
+  width: 150px;
+  height: 120px;
+}
+
 
 /* Final da Imagem do shadow no canto*/
 
