@@ -68,14 +68,31 @@ body {
   height: 150px;
 }
 
+#Icone-3{
+  position: absolute;
+
+  transform: rotate(10deg);
+
+  top: 220px;      
+  right: 50px;    
+
+  width: 120px;
+  height: 120px;
+}
+
 .perfil{
   position: absolute;
 
-  top: 100px;      
-  right: 300px;
+  top: 90px;      
+  right: 50px;
 
 }
 
+#texto-P{
+  width: 650px;
+  height: 150px;
+
+}
 
 /* Fonte */
 
