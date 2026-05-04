@@ -80,6 +80,16 @@ body {
   height: 120px;
 }
 
+#Icone-4{
+  position: absolute;
+
+  top: -85px;      
+  right: 50px;    
+
+  width: 190px;
+  height: 190px;
+}
+
 .perfil{
   position: absolute;
 
