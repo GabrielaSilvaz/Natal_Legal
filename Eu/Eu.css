@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+html, body {
+  overflow-x: hidden;
+}
+
 * {
   border: none;
   font-family: Ubuntu Mono;
@@ -19,7 +23,8 @@ body {
   max-width: 1100px;
   min-height: 90vh;
   margin: 0 auto;
-  padding: 6px;         
+  padding: 6px;
+  padding-top: 550px; /* ← adiciona isso */
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(7px);
@@ -88,6 +93,78 @@ body {
 
   width: 190px;
   height: 190px; 
+}
+
+#Icone-5{
+  position: absolute;
+
+  top: 470px;      
+  right: 700px;    
+
+  width: 400px;
+  height: 100px;
+
+  border-radius: 5px;
+}
+
+#Icone-6{
+  position: absolute;
+
+  top: 470px;      
+  right: 590px;    
+
+  width: 100px;
+  height: 100px;
+
+  border-radius: 5px;
+}
+
+#Icone-7{
+  position: absolute;
+
+  top: 470px;      
+  right: 475px;    
+
+  width: 100px;
+  height: 100px;
+
+  border-radius: 5px;
+}
+
+#Icone-8{
+  position: absolute;
+
+  top: 470px;      
+  right: 360px;    
+
+  width: 100px;
+  height: 100px;
+
+  border-radius: 5px;
+}
+
+#Icone-9{
+  position: absolute;
+
+  top: 470px;      
+  right: 140px;    
+
+  width: 200px;
+  height: 100px;
+
+  border-radius: 5px;
+}
+
+#Icone-10{
+  position: absolute;
+
+  top: 470px;      
+  right: 30px;    
+
+  width: 100px;
+  height: 100px;
+
+  border-radius: 5px;
 }
 
 .perfil{
@@ -163,7 +240,7 @@ a {
   all: initial;
   width: 100%;
   height: 210px;
-  margin: 16px 0 16px -6px;
+  margin: 16px 0;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -215,5 +292,5 @@ a {
 }
 
 .L-vinyl{
-  margin-top: 450px;
+  margin-top: 30px;
 }
