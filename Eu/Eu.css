@@ -296,6 +296,7 @@ a {
   display: flex;
   flex-direction: row;
   position: relative;
+  margin: auto;
 }
 
 .coluna-1{
