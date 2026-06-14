@@ -24,7 +24,7 @@ body {
   min-height: 90vh;
   margin: 0 auto;
   padding: 6px;
-  padding-top: 550px; /* ← adiciona isso */
+  padding-top: 550px; 
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(7px);
@@ -290,3 +290,20 @@ a {
   visibility: visible;
 }
 
+#playlist{
+  all: initial;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.coluna-1{
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+#titulo-P{
+  font-size: 40px;
+}
