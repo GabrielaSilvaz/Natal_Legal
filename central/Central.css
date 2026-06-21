@@ -57,7 +57,7 @@ body {
 
 /* Final da Imagem do shadow no canto*/
 
-#blur {
+.blur {
   width: 90%;
   max-width: 1100px;
   min-height: 90vh;
