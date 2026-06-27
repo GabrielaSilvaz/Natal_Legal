@@ -116,6 +116,10 @@ a {
   margin: 5px;          
 }
 
+.pag:hover {
+  color: white;
+}
+
 /* fundo das colunas */
 
 .fundo {

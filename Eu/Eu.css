@@ -32,7 +32,7 @@ body {
 }
 
 /* Fotos sobre postas ao conteudo do Perfil! 
-      E Foto e layot da Foto do Perfil*/
+    E Foto e layot da Foto do Perfil*/
 
 .Foto-p{
   border-radius: 100%;
@@ -234,6 +234,9 @@ a {
   margin: 5px;          
 }
 
+.pag:hover {
+  color: white;
+}
 
 /* CSS do Vinyl */
 

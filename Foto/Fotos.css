@@ -59,6 +59,10 @@ a {
   margin: 5px;          
 }
 
+.pag:hover {
+  color: white;
+}
+
 /* Fotos e textos das Fotos*/
 
 .alinhar{
