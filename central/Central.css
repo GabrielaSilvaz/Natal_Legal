@@ -2,7 +2,7 @@
 
 * {
   border: none;
-  font-family: Ubuntu Mono;
+  font-family: Ubuntu Mono, sans-serif;
   color: white;
 }
 
@@ -140,7 +140,7 @@ a {
 
 .coluna {
   flex: 1 1 280px;
-  max-width: 350px;
+  max-width: 350px;                                       
   min-width: 220px;
   margin: 3px;            
   padding: 3px;           
@@ -179,7 +179,7 @@ a {
 
 img { width: 100%; height: auto; display: block; }
 
-.direita, .centro, .esquerda {
+.formato{
   flex: 1;
   min-width: 200px;
   max-width: 350px;
@@ -195,7 +195,7 @@ img { width: 100%; height: auto; display: block; }
 
 .mini-grupo { display: flex; flex-direction: column; gap: 8px; flex: 1; }
 
-.grande   { max-width:auto; font-size: 14px; align-items: center; }
+.grande   { max-width: auto; font-size: 14px; align-items: center; }
 .pequeno  { max-width: 160px; }
 .vertical { max-width: 120px; }
 
